@@ -6,7 +6,7 @@ img-45{
 }
 
 body {
-  background-color: lightblue;
+  background-color: bisque;
 }
 
 p {
@@ -25,7 +25,47 @@ a {
 }
 
 h2{
+  margin-left: 40%;
+  margin-right: 40%;
+}
+
+table{
+  border-style: double;
+  border-width: 1mm;
+  border-color: royalblue;
+  border-radius: 10%;
+  background-color: whitesmoke;
+  font-style: oblique;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  margin-left:auto;
+  margin-right:auto;
+} 
+th,td{
+  border-style: double;
+  border-width: 1mm;
+  border-color: royalblue;
+  border-radius: 10%;
+}
+nav{
   font-family:'Courier New', Courier, monospace;
-  margin-left: auto;
-  margin-right: auto;
+  font-style:normal;
+  margin-left:70%;
+}
+label{
+  font-family:'Courier New', Courier, monospace;
+  font-style:bold;
+  font-size: 30px;
+  margin-right: 60%;
+}
+section{
+  background-color:aliceblue;
+}
+footer{
+  font-family:'Courier New', Courier, monospace;
+  font-size: medium;
+  background-color: aliceblue;
+}
+h3{
+  margin-right:auto;
+  margin-left:auto;
 }
