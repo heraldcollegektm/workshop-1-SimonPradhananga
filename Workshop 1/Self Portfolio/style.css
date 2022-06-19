@@ -33,7 +33,6 @@ table{
   border-style: double;
   border-width: 1mm;
   border-color: royalblue;
-  border-radius: 10%;
   background-color: whitesmoke;
   font-style: oblique;
   font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -43,8 +42,8 @@ table{
 th,td{
   border-style: double;
   border-width: 1mm;
-  border-color: royalblue;
-  border-radius: 10%;
+  border-color:black;
+  border-radius: 10px;
 }
 nav{
   font-family:'Courier New', Courier, monospace;
