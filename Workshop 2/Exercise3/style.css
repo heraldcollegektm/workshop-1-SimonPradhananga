@@ -2,7 +2,13 @@ body{
     background-color:rgb(229, 203, 172);
 }
 h1{
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 20px;
     color: red;
+}
+.header-1{
+    font-size: 18px;
+    margin-left:30px;
 }
 #page-div h3{
     font-size: 20px ;
@@ -10,6 +16,9 @@ h1{
     font-weight: bold;
 }
 .quote{
+    font-style: oblique;
+    font-weight: bold;
+    color: darkblue;
     border-style: dashed;
     border-width: 3px;
     font-weight: bold;
@@ -20,6 +29,15 @@ h1{
     font-family: sans-serif;
     font-weight: bold;
     color: rgb(240, 138, 13);
+}
+section{
+    padding: 10px;
+    margin-left: 8px;
+    background-color: lightblue;
+    font-size: 20px;
+    font-family: cursive;
+    font-style: oblique;
+    color: grey;
 }
 div,
 main{
@@ -42,6 +60,10 @@ article,
 .article-1,
 .article-2,
 .article-3{
+    font-size: 16px;
+    font-weight:bold;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
     border-width: 4px;
     border-style:solid;
     border-color: rgb(111, 155, 249);
@@ -57,3 +79,14 @@ article,
     margin-bottom: 5px;
 }
 
+.list-one,
+.food{
+    font-size: 20px;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-style: oblique;
+    color: darkblue;
+    padding:20px;
+    margin-left:10px;
+    border-radius: 6px;
+}
