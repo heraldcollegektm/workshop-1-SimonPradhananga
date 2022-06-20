@@ -1,0 +1,33 @@
+p{
+    color: black;
+    font-size: larger;
+    font-family:sans-serif;
+}
+
+
+.food{
+    color:red;
+}
+
+.bg-color-part-one,
+.bg-color-part-two,
+.bg-color-part-three{
+    padding: 40px;
+    border-radius: 10px;
+
+}
+.bg-color-part-one{
+    background-color: aqua;
+}
+
+.bg-color-part-two{
+    background-color: blue;
+}
+
+.bg-color-part-three{
+    background-color:lightgreen;
+}
+
+#page-header h1{
+    color: red;
+}
