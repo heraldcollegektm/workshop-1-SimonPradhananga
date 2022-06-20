@@ -1,0 +1,59 @@
+body{
+    background-color:rgb(229, 203, 172);
+}
+h1{
+    color: red;
+}
+#page-div h3{
+    font-size: 20px ;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.quote{
+    border-style: dashed;
+    border-width: 3px;
+    font-weight: bold;
+    font-family: serif;
+}
+#page-header h2 {
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: rgb(240, 138, 13);
+}
+div,
+main{
+    padding: 10px;;
+    border-width: 6px;
+    border-style:solid;
+    border-color: rgb(255, 238, 0);
+}
+.quote-second{
+    margin-left:5px;
+    font-style: oblique;
+    font-family: sans-serif;
+}
+hr{
+    border-width: 1px;
+    height:2px;
+    background-color: rgb(111, 155, 249);
+}
+article,
+.article-1,
+.article-2,
+.article-3{
+    border-width: 4px;
+    border-style:solid;
+    border-color: rgb(111, 155, 249);
+}
+
+div,
+article,
+.article-1,
+.article-2,
+.article-3{
+    padding:20px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
