@@ -90,3 +90,11 @@ article,
     margin-left:10px;
     border-radius: 6px;
 }
+a{
+    background-color: rgb(181, 190, 144);
+    border-radius: 5px;
+    border-style: double;
+}
+a:hover{
+    background-color: Red;
+}
