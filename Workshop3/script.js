@@ -1,7 +1,6 @@
 function triArea(base, height) {
     return (base* height)/2;
 }
-docment.getElementById("demo").innerHTML = x;
 
 function giveMeSomething(a){
     something = 'something' +" "+ a;
@@ -24,18 +23,48 @@ function lessThan100(n1,n2){
 
 function addup(n){
    var sum= 0;
-    for (var i= 0; i <= n; i++){
+    for (i= 1; i <= n; i++){
         sum += i;
     }
     return sum;
 }
+//     i = 0
+//        while (i <= n){
+//        sum += i
+//        i += 1
+//     }
+// }
 
+// function oddishOrEvenish(a){
+//     sum = 0;
+//  while (a!= 0){
+//     var R = a % 10;
+//     sum = sum + R;
+//     a= Math.floor(a/10);
+
+//  }
+//  if (sum%2 == 0){
+//     document.write("Evenish")
+//  }else{
+//     document.write("Oddish")
+//  }
+// }
+
+function primeInRange(n1,n2){
+    for()
+
+}
 function oddishOrEvenish(a){
-    true1 = "Evenish";
-    false2 = "Oddish";
-    if (a % 2 == 0){
-        return true1;
+    sum = 0;
+    for (i= 0;  a!= 0; i++){
+        var R = a % 10;
+        sum += R;
+        a = Math.floor(a/10);
+    }
+    if (sum%2 == 0){
+        console.log("Evenish")
     }else{
-        return false2 ;
+        console.log("Oddish")
     }
 }
+oddishOrEvenish(12)
