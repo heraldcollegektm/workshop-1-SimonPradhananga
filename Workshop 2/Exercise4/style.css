@@ -95,5 +95,9 @@ main {
 
 .skills{
     margin-top:10px;
-    font-sty
+    font-family:sans-serif;
+    font-weight: bold;
+}
+#skill-one{
+    font-weight:bold;
 }
