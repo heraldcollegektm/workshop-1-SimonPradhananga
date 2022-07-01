@@ -1,0 +1,82 @@
+img-45{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50% ;
+}
+
+body {
+  background-color: bisque;
+}
+
+p {
+  font-family: verdana;
+  font-size: 20px;
+}
+
+a {
+  background-color: white;
+  color: red;
+  border: 2px solid black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+h2{
+  margin-left: 40%;
+  margin-right: 40%;
+}
+
+table{
+  border-style: double;
+  border-width: 1mm;
+  border-color: royalblue;
+  background-color: whitesmoke;
+  font-style: oblique;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  margin-left:auto;
+  margin-right:auto;
+} 
+th,td{
+  border-style: double;
+  border-width: 1mm;
+  border-color:black;
+  border-radius: 10px;
+}
+nav{
+  font-family:'Courier New', Courier, monospace;
+  font-style:normal;
+  margin-left:70%;
+}
+label{
+  font-family:'Courier New', Courier, monospace;
+  font-style:bold;
+  font-size: 30px;
+  margin-right: 60%;
+}
+section{
+  background-color:aliceblue;
+}
+footer{
+  font-family:'Courier New', Courier, monospace;
+  font-size: medium;
+  background-color: aliceblue;
+  margin-top:50%;
+}
+h3{
+  margin-right:auto;
+  margin-left:auto;
+}
+
+input{
+  width: 20%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+li{
+  font-size: 30px;
+  font-family:'Courier New', Courier, monospace;
+}

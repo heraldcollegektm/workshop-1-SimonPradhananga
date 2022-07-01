@@ -1,0 +1,103 @@
+p{
+    color: black;
+    font-size: larger;
+    font-family:sans-serif;
+}
+.page-top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#page-header p{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: right;
+    margin-top: -40px; */
+}
+
+body{
+    background-color: bisque;
+}
+
+
+#page-header h1{
+    padding: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+    color: red;
+}
+
+#page-main p{
+    background-color:beige;
+    border-style: dashed;
+    border-width: 5px;
+    border-color: aquamarine;
+}
+
+.experience{
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    width: 23%;
+}
+.education{
+    padding: 20px;
+    margin: 30px;
+    font-size: 16px;
+    font-weight:bold;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: aliceblue;
+    width: 75%;
+}
+footer{
+    margin-bottom: 15px;
+}
+.blue{
+    color: blue;
+}
+main {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+.date-one,
+.date-two {
+    display: flex;
+    /* flex-direction:column; */
+    justify-content:center;
+    border-right: 2px solid black;
+    width: 20%;
+}
+.first,
+.second{
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+    width:80%;
+    margin-left: 20px;
+}
+
+.box-1,
+.box-2{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items: center;
+}
+.exp1,
+.skills{
+    background-color: aliceblue;
+    padding:30px;
+    height:50%;
+}
+
+.skills{
+    margin-top:10px;
+    font-family:sans-serif;
+    font-weight: bold;
+}
+#skill-one{
+    font-weight:bold;
+}

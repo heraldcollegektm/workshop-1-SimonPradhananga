@@ -1,0 +1,63 @@
+p{
+    color: black;
+    font-size: larger;
+    font-family:sans-serif;
+}
+h1,
+.second-h2,
+.last-h2{
+    padding:20px;
+    border-radius: 5px;
+}
+.second-h2,
+.last-h2{
+    color:red;
+    background-color:  rgb(244, 244, 57);
+}
+
+.food{
+    color:red;
+}
+
+body{
+    background-color: bisque;
+}
+
+.bg-color-part-two,
+.bg-color-part-three,section{
+    padding: 20px;
+    border-radius: 5px;
+    border-width: 8px ;
+    border-color:rgb(63, 255, 63);
+}
+.bg-color-part-one{
+    background-color: rgb(244, 244, 57);
+}
+
+.bg-color-part-two,
+.bg-color-part-three{
+    border-style:solid;
+    background-color:bisque;
+}
+
+#page-header h1{
+    color: red;
+}
+
+section{
+    border-style:dashed;
+    border-color:rgb(63, 255, 63);
+}
+.quote{
+    margin-left: 40px;
+    font-family: serif;
+    font-size: 20px;
+    color: orange;
+}
+
+#page-main p{
+    background-color:beige;
+    border-style: dashed;
+    border-width: 5px;
+    border-color: aquamarine;
+}
