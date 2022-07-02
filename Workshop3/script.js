@@ -53,24 +53,24 @@ function oddishOrEvenish(a){
         console.log("Oddish")
     }
 }
-// oddishOrEvenish(12);
 
-//Question no. 7
-function primeInRange(n1){
-    count = 0
-    while (i<=n1){
-        if (n1 % i == 0){
-            count += 1
-            if (count ==2){
-                return true;
-            }else{
-                return false;
-            }break
-        }
-    i += 1
+function primeInRange(n1, n2) {
+    count = 0; 
+    for (i = 1; n1 <= n2; i++){
+        for (j = 1; j<  (n1/2)+1; j++){
+            if (n1  % j == 0){
+                count += 1;
+            } break
+        }n1+=1;
     }
-}
-primeInRange(11);
+    if (count == 2){
+        return true;
+    }else{
+        return false;
+    }
+};
+
+
 
 
 //Question no. 8
@@ -81,13 +81,12 @@ function shiftToLeft(n,m){
 
 //Question no. 9
 function binary(n){
-    i = 1 ;
-    result = 0;
-    while (n == 0 ){
-        R = n % 2;
-        n = Math.floor(n/2);
-
-        result += R;
-    }
-console.log(result);
+decimal = n.toString();
+let binary = "";
+while (n>=1){
+    let bin = n%2;
+    binary = bin.toString().concat(binary);
+    n = parseInt(n/2);
+}
+return binary;
 }
