@@ -1,3 +1,5 @@
+
+// here all the required value is selected from the html file 
 let disp = document.querySelector("#display");
 let one = document.querySelector("#button1");
 let two = document.querySelector("#button2");
@@ -17,7 +19,7 @@ let div = document.querySelector("#divideButton");
 let cls = document.querySelector("#clearButton");
 let calc = document.querySelector("#equalsButton");
 
-
+// creates a event listner  
 one.addEventListener('click', () => disp.value += 1);
 two.addEventListener('click', () => disp.value += 2);
 three.addEventListener('click', () => disp.value += 3);
