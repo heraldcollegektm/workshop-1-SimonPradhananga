@@ -26,3 +26,12 @@ printArray(1);
         console.log(Object.entries(object));
     }
  }
+toArray()
+
+ //Qn 4
+ function getVoteCount(upvotes,downvotes){
+    difference = upvotes - downvotes;
+    console.log(difference)
+ }
+ getVoteCount(3,33)
+
